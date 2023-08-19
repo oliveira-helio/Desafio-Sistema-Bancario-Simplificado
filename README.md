@@ -1,9 +1,7 @@
-![](https://i.imgur.com/xG74tOh.png)
-
 # Desafio | Back-end - Módulo 2
 
-Você acabou de ser contratado pela melhor empresa de tecnologia do mundo: a **CUBOS**.
-Sua primeira tarefa como desenvolvedor é criar uma API para o banco digital Cubos Bank.  
+Você acabou de ser contratado pela melhor empresa de tecnologia do mundo: a **BANK**.
+Sua primeira tarefa como desenvolvedor é criar uma API para o banco digital BANK Bank.  
 Esse será um projeto **piloto**, ou seja, no futuro outras funcionalidades serão implementadas, portanto, dados do banco (nome, agência, etc.) serão imutáveis.
 
 Seu papel é construir uma RESTful API que permita:
@@ -40,10 +38,10 @@ Os dados serão persistidos em memória, no objeto existente dentro do arquivo `
 ```javascript
 {
     banco: {
-        nome: "Cubos Bank",
+        nome: "BANK Bank",
         numero: "123",
         agencia: "0001",
-        senha: "Cubos123Bank",
+        senha: "Banco123Bank",
     },
     contas: [
         // array de contas bancárias
@@ -687,15 +685,6 @@ Essa é a rota que será utilizada para  listar as transações realizadas de um
     mensagem: 'Mensagem do erro!'
 }
 ```
-
-## Aulas úteis:
-
--   [Rotas, Intermediários e Controladores](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/ac35fd79-d5b9-4aae-8582-4579286ce15f)
--   [Aula API REST](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/ecb7d0dc-9b7d-4a29-bf47-df73c1eb726f)
--   [Formatando datas com date-fns](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/b9b9e316-1362-4cc0-ba7a-d91a82b7d105)
--   [Aula objetos](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/f7f7cdf2-823d-4bc9-aa17-2413a4e120f0)
--   [Aula funções](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/94475475-4560-4612-b74e-aba9d3a0ad12)
--   [Aula de Revisão](https://aulas.cubos.academy/turma/503b31f6-db13-4a79-8c3f-132b3d44e96f/aulas/048a88a1-0785-4c08-a984-b5b5382ea38f)
 
 **LEMBRE-SE**: é melhor feito do que perfeito!!!
 
